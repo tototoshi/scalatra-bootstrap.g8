@@ -1,0 +1,7 @@
+<%@ var message: String = "Hello" %>
+#do(layout("layout.ssp"))
+
+<h1>${message}</h1>
+
+#end
+
